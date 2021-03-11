@@ -1,28 +1,27 @@
 MASTER.py communicates with the other 2 microbits
 SLAVE1.py is the first microbit
 SLAVE2.py is the second microbit
-
 diagram:
-       ┌──────────────────────┐
-       │                      │
-       │                      │
-       │                      │
-       │                      │
-       │    deli inn          │
-       │                      │
-       │                      │
-       │                      │
-       │                      │
-       │                      │
-       └─────┬────┬───────────┘
+┌───────────────────────────────┐
+│                               │
+│                               │
+│                               │
+│                               │
+│           deli inn            │
+│                               │
+│                               │
+│                               │
+│                               │
+│                               │
+└────────────┬────┬─────────────┘
 microbit 2  x│    │x microbit 1
              │ ┌┐ │
              │ └┘ │
-             │ m  │
+             │  m │
              │ a  │
-             │ s  │queue
+             │  s │queue
              │ t  │
-            ▲│ e  │▲
+            ▲│  e │▲
      lazer 2││ r  ││ lazer 1
             └┴────┴┘
             
