@@ -11,13 +11,18 @@ diagram:
 │                               │
 │                               │
 └────────────┬────┬─────────────┘
-microbit 2  x│    │x microbit 1
+microbit 2  x│    │x master
              │ ┌┐ │
              │ └┘ │
-             │  m │
-             │ a  │
-             │  s │queue
-             │ t  │
-            ▲│  e │▲
-     lazer 2││ r  ││ lazer 1
+             │    │
+             │    │
+             │    │queue
+             │    │
+            ▲│    │▲
+     lazer 2││    ││ lazer 1
             └┴────┴┘
+            
+             data
+microbit 2 -------> master
+master keeps track of lazer status
+master rings buzzer
